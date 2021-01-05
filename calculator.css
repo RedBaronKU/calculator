@@ -1,18 +1,18 @@
 body{
-    background-color: red;
+    background-color: rgb(87, 5, 5);
     font-family: 'Open Sans', sans-serif;
 }
 #container{
     background-image: url(backGround.jpg);
-    margin: 20px auto;
+    margin:auto;
     position: relative;
     width: 95%;
-    height: 97%;
+    height: 95%;
     background-repeat:no-repeat;
     background-size:cover;
 }
 .calcBody{
-    background-color: rgba(186, 190, 190,0.9);
+    background-color: rgba(221, 226, 226, 0.95);
     width:28%;
     height:98%;
     margin:auto;
@@ -29,20 +29,23 @@ body{
     background-color: rgb(16, 153, 69);
     margin: auto;
     opacity: 90%;
+    height: 34%;
 }
 .history
 {
-    margin-right: 9px;
     position: relative;
-    margin-top:30px;
     color:black;
     font-style: italic;
-
+    height:30%;
+    width:95%;
+    margin-top: 50px;
 }
 .input{
     font-size: 40px;
     margin-right: 10px;
     font-style: bold;
+    height:67%;
+    width:98%;
 }
 .keyboard
 {
@@ -64,7 +67,7 @@ body{
 }
 .empty{
     width:50px;
-    background-color: rgba(186, 190, 190,0.9);
+    background-color: rgba(221, 226, 226, 0.9);
     height:43px;
     margin: 18px;
     float:left;
@@ -72,7 +75,7 @@ body{
 } 
 .number{
     width:50px;
-    background-color: rgba(186, 190, 190,0.9);
+    background-color: rgba(221, 226, 226, 0.9);
     height:43px;
     margin: 18px;
     float:left;
@@ -82,9 +85,11 @@ body{
     cursor:pointer;
     opacity:90%;
     border-radius:50%;
+    transition: background 0.2s;
 }
 .operator:active, .number:active{
     font-size: 17px;
+    background: rgb(255, 255, 255);
 }
 .operator:focus, .number:focus, .empty:focus{
     outline:0;
