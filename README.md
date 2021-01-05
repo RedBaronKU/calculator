@@ -1,5 +1,6 @@
 # calculator
 Basic Calculator App: Works fine
-Demerits:
+De merits:
   - Not responsive.
-  - Large number displays not accomodated properly, will correct in upcoming versions
+  - Large number displays not accomodated properly, will correct in upcoming versions.
+  - need to add decimal button and a toggle +/-
