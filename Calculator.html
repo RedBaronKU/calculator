@@ -1,14 +1,47 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Calculator</title>
-    <link rel="stylesheet" href="calculator.css">
-</head>
+    
+    <link rel="stylesheet" type="text/css" href="calculator.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel = "icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/GNOME_Calculator_icon_2018.svg/1024px-GNOME_Calculator_icon_2018.svg.png" type = "image/x-icon"> 
+    <title>Calculator</title> 
+    </head>
 <body>
-    <div class="calcBody">
-
+    <div id="container">
+        <div class="calcBody">
+            <div class="display">
+                <div class="history">
+                    <p>20</p>
+                </div>
+                <div class="input">
+                    <p>10</p>
+                </div>
+            </div>
+            <div class="keyboard">
+                <button id="C" class="operator">C</button>
+                <button id="CE" class="operator">CE</button>
+                <button id="%" class="operator">%</button>
+                <button id="add" class="operator">+</button>
+                <button id="7" class="number">7</button>
+                <button id="8" class="number">8</button>
+                <button id="9" class="number">9</button>
+                <button id="multiply" class="operator">*</button>
+                <button id="4" class="number">4</button>
+                <button id="5" class="number">5</button>
+                <button id="6" class="number">6</button>
+                <button id="minus" class="operator">-</button>
+                <button id="1" class="number">1</button>
+                <button id="2" class="number">2</button>
+                <button id="3" class="number">3</button>
+                <button id="divide" class="operator">/</button>
+                <button class="empty"></button>
+                <button id="0" class="number" id="0">0</button>
+                <button class="empty"></button>
+                <button id="equals" class="operator">=</button>
+            </div>
+        </div>
     </div>
 </body>
 </html>

@@ -1,0 +1,107 @@
+body{
+    background-color: red;
+    font-family: 'Open Sans', sans-serif;
+}
+#container{
+    background-image: url(backGround.jpg);
+    margin: 20px auto;
+    position: relative;
+    width: 95%;
+    height: 97%;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.calcBody{
+    background-color: rgba(186, 190, 190,0.9);
+    width:28%;
+    height:98%;
+    margin:auto;
+    position: relative;
+    top:5px;
+    border-radius: 1ex;
+}
+.display
+{
+    text-align: right;
+    margin-right: 3%;
+    margin-top: 3%;
+    border-radius: 1ex;
+    background-color: rgb(16, 153, 69);
+    margin: auto;
+    opacity: 90%;
+}
+.history
+{
+    margin-right: 9px;
+    position: relative;
+    margin-top:30px;
+    color:black;
+    font-style: italic;
+
+}
+.input{
+    font-size: 40px;
+    margin-right: 10px;
+    font-style: bold;
+}
+.keyboard
+{
+    height:66%;
+    margin:auto;
+    padding: auto;
+
+}
+.operator{
+    width:50px;
+    height: 43px;
+    margin: 18px;
+    float: left;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 21px;
+    border:none;
+    background: rgb(119, 114, 114);
+}
+.empty{
+    width:50px;
+    background-color: rgba(186, 190, 190,0.9);
+    height:43px;
+    margin: 18px;
+    float:left;
+    border:none;
+} 
+.number{
+    width:50px;
+    background-color: rgba(186, 190, 190,0.9);
+    height:43px;
+    margin: 18px;
+    float:left;
+    border:none;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+    opacity:90%;
+    border-radius:50%;
+}
+.operator:active, .number:active{
+    font-size: 17px;
+}
+.operator:focus, .number:focus, .empty:focus{
+    outline:0;
+}
+#add{
+    background:rgb(226, 98, 98);
+}
+#multiply{
+    background: aqua;
+}
+#divide
+{
+    background: rgb(84, 245, 84);
+}
+#minus{
+    background: rgb(243, 182, 69);
+}
+#equals{
+    background: rgb(158, 92, 92);
+}
